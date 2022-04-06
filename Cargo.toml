@@ -1,0 +1,15 @@
+[package]
+name = "bevy_basic_template"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.6.1"
+bevy-inspector-egui = "0.9.0"
+bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls" }
+
+[workspace]
+resolver = "2"
+
+[profile.dev.package."*"]
+opt-level = 3
