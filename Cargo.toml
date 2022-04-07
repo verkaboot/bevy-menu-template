@@ -7,6 +7,7 @@ edition = "2021"
 bevy = "0.6.1"
 bevy-inspector-egui = "0.9.0"
 bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls" }
+leafwing-input-manager = "0.2"
 
 [workspace]
 resolver = "2"
