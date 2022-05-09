@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = "0.6.1"
-bevy-inspector-egui = "0.9.0"
-bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls" }
-leafwing-input-manager = "0.2"
+bevy = "0.7"
+bevy-inspector-egui = "0.11"
+iyes_loopless = "0.5.1"
+leafwing-input-manager = "0.3"
 
 [workspace]
 resolver = "2"
